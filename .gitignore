@@ -1,0 +1,18 @@
+# ===== Firmware build output =====
+firmware/build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# ===== Editors / OS noise =====
+firmware/.vscode/*
+!firmware/.vscode/launch.json
+!firmware/.vscode/tasks.json
+!firmware/.vscode/extensions.json
+!firmware/.vscode/c_cpp_properties.json
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
